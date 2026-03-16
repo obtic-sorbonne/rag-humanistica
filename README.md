@@ -9,7 +9,7 @@ ERC ModERN · Sorbonne/ENS Paris
 
 A retrieval-augmented generation pipeline that uses the structural and semantic markup of TEI-XML editions as the basis for chunking and metadata-aware retrieval. Instead of naive fixed-size splitting, the system detects the document type of each corpus automatically and applies a three-level chunking cascade driven by TEI structure.
 
-Built for the [Humanistica 2026](https://humanistica2026.fr/) paper:  
+Built for the [Humanistica 2026](https://humanistica2026.sciencesconf.org/) paper:  
 **"Faire du neuf avec du balisé : Quand une édition TEI devient la mémoire d'un RAG"**
 
 ---
