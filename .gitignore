@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Corpus data (populate locally — see README)
+data/corpus/
+data/tei_files/
+data/vector_stores/*/
+data/vector_db/
+data/prompt_testbed_log.jsonl
+
+# Generated / local artifacts
+vector_store/
+outputs/
+ragAVH/
+models/
+notebooks/
+src/
+
+# Models
+*.bin
+*.safetensors
+*.gguf
+
+# OS
+.DS_Store
+Thumbs.db

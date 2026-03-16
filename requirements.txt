@@ -1,0 +1,23 @@
+# ragHumanistica — Python 3.10-3.12
+# Torch installed separately (CUDA-specific wheel)
+
+# RAG framework
+llama-index-core>=0.11.0
+llama-index-embeddings-huggingface>=0.3.0
+llama-index-llms-huggingface>=0.3.0
+
+# Embeddings & inference
+sentence-transformers>=2.3.0
+transformers>=4.37.0
+accelerate>=0.26.0
+
+# TEI/XML
+lxml>=5.1.0
+beautifulsoup4>=4.12.0
+
+# UI
+streamlit>=1.35.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.66.0
